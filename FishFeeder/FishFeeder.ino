@@ -47,7 +47,7 @@ void feed() {
 void feedNow() {
     delay(1000);
     digitalWrite(A1, LOW);
-    delay(600);
+    delay(1500);
     digitalWrite(A1, HIGH);
 
     Serial.print("Feed, ");
